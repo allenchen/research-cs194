@@ -1,0 +1,20 @@
+#summary This rails application allows students to easily find research projects hosted by UC Berkeley faculty.
+
+= Team =
+
+Amber Feng
+Oren Blasberg
+Jonathan Ko
+Allen
+
+Cs194-4 Fall 2009
+
+
+= Details =
+
+ResearchMatch
+  * ResearchMatch provides research listings for UC Berkeley students to easily access research opportunities posted by faculty members. Features include filtering/sorting listings with various conditions, replying to faculty, and posting/reading reviews for past faculty projects.
+
+= Status Updates =
+
+  * None currently

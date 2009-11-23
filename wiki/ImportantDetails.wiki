@@ -1,0 +1,14 @@
+#summary Things that need addressing.
+
+= Introduction =
+
+job_inactives_controller.rb - a way to kind of "reverse" grab all instance variables and their values of an object?
+e.g. let x be some hash that is (:a => "b", :c => "d")
+Given y = SomeObject.new(x), I want to be able to retrieve x.
+
+
+= Details =
+
+job_inactives_controller.rb - a way to kind of "reverse" grab all instance variables and their values of an object?
+e.g. let x be some hash that is (:a => "b", :c => "d")
+Given y = SomeObject.new(x), I want to be able to retrieve x.

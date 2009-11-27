@@ -10,3 +10,10 @@ job_inactives_controller.rb
 job_inactives_controller.rb - a way to kind of "reverse" grab all instance variables and their values of an object?
 e.g. let x be some hash that is (:a => "b", :c => "d")
 Given y = SomeObject.new(x), I want to be able to retrieve x.
+
+
+= Known Bugs =
+
+- Editing a job:  Enter a new job with a title filled and description blank. Then hit submit. validation error occurs, but this time the faculty names dropdown is totally empty.
+
+- Filtering / searching doesn't work that well. For example, a job with title "hihi" won't be found by typing "hi" into the box.  Ignore quotes of course.

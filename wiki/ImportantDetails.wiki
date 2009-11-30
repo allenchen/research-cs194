@@ -11,6 +11,8 @@ job_inactives_controller.rb - a way to kind of "reverse" grab all instance varia
 e.g. let x be some hash that is (:a => "b", :c => "d")
 Given y = SomeObject.new(x), I want to be able to retrieve x.
 
+= Nice Features to Have in the Future =
+- Color-code the tags based on what type they are (name of category, name of course, name of proglang, etc.)
 
 = Known Bugs =
 

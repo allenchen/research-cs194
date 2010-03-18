@@ -23,3 +23,10 @@ Given y = SomeObject.new(x), I want to be able to retrieve x.
 - When editing a job, any attempts to change the faculty member associated with the job fail. I.e. if you click Update, the faculty doesn't change.  (Title, desc, other fields update just fine, but the faculties don't update).  This probably has something to do with sponsorships.. not quite sure how though.
 
 - When viewing faculty dropdown lists, faculties with names containing letters with accent marks like "Bjorn" or "Sequin" have a "box with a question mark" symbol instead of the proper letter.
+
+= Solr Stuff =
+
+On windows, use:
+{{{rake solr:start_win}}}
+On Unix use
+{{{rake solr:start}}}

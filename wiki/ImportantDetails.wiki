@@ -12,7 +12,9 @@ e.g. let x be some hash that is (:a => "b", :c => "d")
 Given y = SomeObject.new(x), I want to be able to retrieve x.
 
 = Nice Features to Have in the Future =
-- Color-code the tags based on what type they are (name of category, name of course, name of proglang, etc.)
+  * Color-code the tags based on what type they are (name of category, name of course, name of proglang, etc.)
+  * Add a "my posted jobs" type thing on the dashboard
+
 
 = Known Bugs =
 

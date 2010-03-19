@@ -14,6 +14,7 @@ Given y = SomeObject.new(x), I want to be able to retrieve x.
 = Nice Features to Have in the Future =
   * Color-code the tags based on what type they are (name of category, name of course, name of proglang, etc.)
   * Add a "my posted jobs" type thing on the dashboard
+  * Add links to delete jobs you've posted.
 
 
 = Known Bugs =

@@ -15,7 +15,14 @@ Given y = SomeObject.new(x), I want to be able to retrieve x.
   * Color-code the tags based on what type they are (name of category, name of course, name of proglang, etc.)
   * Add a "my posted jobs" type thing on the dashboard
   * Add links to delete jobs you've posted.
-
+  * Each job's show page should list all the users currently watching.
+  * *All things that mention user names should be linked; they should link to that user's show page.*
+  * Commenting system on jobs and/or reviews.
+  * Dashboard
+    * For faculty, replace Your Watched Projects with Your Projects (i.e. ones you've posted)
+  * Posting jobs: if it's a student, then student picks a faculty sponsor; sponsor, rather than student, receives email containing activation code of job (student just receives pending confirmation email). When job is approved, both parties are emailed (including the link to the new job)
+  * Expiration date of jobs should actually work -- i.e., once the date has passed, make them inactive.
+  * Make default expiration dates later than 'now', if they aren't like this already.
 
 = Known Bugs =
 

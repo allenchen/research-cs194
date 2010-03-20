@@ -28,7 +28,11 @@ Given y = SomeObject.new(x), I want to be able to retrieve x.
 
   * Faculty should get SmartMatch results of STUDENTS rather than of JOBS.
 
+= Pending Design Decisions =
+  * On a faculty member's dashboard, should "Your Projects" contain jobs POSTED BY this faculty, or jobs whose faculty sponsor is this faculty?
+
 = Known Bugs =
+ (in the future, please use the actual issues tab for this)
 
 - <s>Editing a job:  Enter a new job with a title filled and description blank. Then hit submit. validation error occurs, but this time the faculty names dropdown is totally empty.</s> <b><font color="red">Fixed in r93</font></b>
 
@@ -39,8 +43,10 @@ Given y = SomeObject.new(x), I want to be able to retrieve x.
 - When viewing faculty dropdown lists, faculties with names containing letters with accent marks like "Bjorn" or "Sequin" have a "box with a question mark" symbol instead of the proper letter.
 
 = Solr Stuff =
+Before doing {{{ruby script/server}}} for development, we must start up the Solr server for full text search. To do this:
 
-On windows, use:
-{{{rake solr:start_win}}}
-On Unix use
-{{{rake solr:start}}}
+...on Windows, use
+{{{rake solr:start_win}}}.
+
+...on Unix, use
+{{{rake solr:start}}}.

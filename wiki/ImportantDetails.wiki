@@ -20,7 +20,9 @@ Given y = SomeObject.new(x), I want to be able to retrieve x.
   * Commenting system on jobs and/or reviews.
   * Dashboard
     * For faculty, replace Your Watched Projects with Your Projects (i.e. ones you've posted)
-  * Posting jobs: if it's a student, then student picks a faculty sponsor; sponsor, rather than student, receives email containing activation code of job (student just receives pending confirmation email). When job is approved, both parties are emailed (including the link to the new job)
+  * Posting jobs: 
+    * If the user is a student, then student picks a faculty sponsor; sponsor, rather than student, receives email containing activation code of job (student just receives pending confirmation email). When job is approved, both parties are emailed (including the link to the new job)
+    * If the user is a faculty member, then when posting a job, his/her name is automatically selected from the "faculty sponsor" dropdown. If he leaves this as is, activation email is sent to him/herself. Otherwise -- i.e., if one faculty member posts a job on behalf of another member, the member who's actually sponsoring the event (whoever is selected in the dropdown list) gets the activation email.
   * Expiration date of jobs should actually work -- i.e., once the date has passed, make them inactive.
   * Make default expiration dates later than 'now', if they aren't like this already.
 

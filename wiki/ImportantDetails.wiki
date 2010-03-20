@@ -24,6 +24,8 @@ Given y = SomeObject.new(x), I want to be able to retrieve x.
   * Expiration date of jobs should actually work -- i.e., once the date has passed, make them inactive.
   * Make default expiration dates later than 'now', if they aren't like this already.
 
+  * Faculty should get SmartMatch results of STUDENTS rather than of JOBS.
+
 = Known Bugs =
 
 - <s>Editing a job:  Enter a new job with a title filled and description blank. Then hit submit. validation error occurs, but this time the faculty names dropdown is totally empty.</s> <b><font color="red">Fixed in r93</font></b>

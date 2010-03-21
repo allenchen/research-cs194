@@ -27,6 +27,7 @@ Given y = SomeObject.new(x), I want to be able to retrieve x.
   * Make default expiration dates later than 'now', if they aren't like this already.
 
   * Faculty should get SmartMatch results of STUDENTS rather than of JOBS.
+  * Jobs show pages should list the names of users watching; also, in the dashboard, faculty should see e.g. "3 people watching" next to each of their projects in the "Your Projects" section.
 
 = Pending Design Decisions =
   * On a faculty member's dashboard, should "Your Projects" contain jobs POSTED BY this faculty, or jobs whose faculty sponsor is this faculty?

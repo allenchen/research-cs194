@@ -25,14 +25,18 @@ Specifically, the following packages are recommended for setting up ResearchMatc
 
 To launch the app, run the following:
 
-`rake ts:reindex
+{{{
+rake ts:reindex
 rake ts:start
-ruby script/server`
+ruby script/server
+}}}
 
 To terminate the app, run the following:
 
-`^C _(to terminate the Ruby server)_
-rake ts:stop`
+{{{
+^C _(to terminate the Ruby server)_
+rake ts:stop
+}}}
 
 For a list of rake tasks associated with ThinkingSphinx, click [http://freelancing-god.github.com/ts/en/rake_tasks.html here].
 

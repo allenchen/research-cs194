@@ -40,6 +40,11 @@ rake ts:stop
 
 For a list of rake tasks associated with ThinkingSphinx, click [http://freelancing-god.github.com/ts/en/rake_tasks.html here].
 
+= Uncommitted Files = 
+The following files are not committed the repository but are necessary or useful for a proper configuration of ResearchMatch:
+  * config/development.sphinx.conf
+  * *config/database.yml*
+  * 
 
 = Conclusion =
 

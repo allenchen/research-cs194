@@ -16,12 +16,17 @@ Deploying ResearchMatch on your own development server is simple. You will need 
   * MySQL
   * _Sphinx (this may not be necessary; I believe the ThinkingSphinx plugin already handles this from within the app)_
   * Rails 2.3
+  * Ruby 1.8
 
 Specifically, the following packages are recommended for setting up ResearchMatch on a Linux box (e.g. Ubuntu):
 
   * ruby-dev
   * ruby
   * mysql-server
+
+The first time you run the app, you need to set up the configuration files:
+  * _cap init (is this the right command?)_
+  * rake ldap:setup
 
 To launch the app, run the following:
 
@@ -41,10 +46,10 @@ rake ts:stop
 For a list of rake tasks associated with ThinkingSphinx, click [http://freelancing-god.github.com/ts/en/rake_tasks.html here].
 
 = Uncommitted Files = 
-The following files are not committed the repository but are necessary or useful for a proper configuration of ResearchMatch:
+The following files are not committed the repository because they contain sensitive data like passwords, but are necessary for proper configuration of ResearchMatch:
   * config/development.sphinx.conf
-  * *config/database.yml*
-  * 
+  * config/database.yml
+  * config/ldap.yml
 
 = Conclusion =
 

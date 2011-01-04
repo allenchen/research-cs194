@@ -54,3 +54,15 @@ The following files are not committed the repository because they contain sensit
 = Conclusion =
 
 This document will be updated as the project progresses. Please feel free to ask any questions by commenting on this wiki page.
+
+= Contact Information =
+
+Please submit bug reports and feature requests directly on this project's [http://code.google.com/p/research-cs194/issues/ issue tracker]. This is the fastest and easiest way for the developers to see and resolve your concerns.
+
+
+Professor Fox is the department sponsor, technical contact, and 'big daddy' of ResearchMatch. For any such administrative requests or questions, please contact:
+ Armando Fox - Adjunct Associate Professor<br>
+ UC Berkeley Computer Science Division<br>
+ fox .at. cs .dot. berkeley .dot. edu<br>
+ 465 Soda Hall #1776, Berkeley, CA 94720-1776<br>
+ +1.510.642.6820  /  http://www.cs.berkeley.edu/~fox<br>

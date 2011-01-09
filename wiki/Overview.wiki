@@ -1,4 +1,5 @@
 #summary The purpose of the project and setup instructions.
+#labels Featured
 
 = Overview =
 
@@ -50,6 +51,10 @@ The following files are not committed the repository because they contain sensit
   * config/development.sphinx.conf
   * config/database.yml
   * config/ldap.yml
+  * config/smtp_pw.rb  (which is simply of the following form:) 
+    {{{
+    @@smtp_pw = "THE_PASSWORD_HERE"
+    }}}
 
 = Conclusion =
 

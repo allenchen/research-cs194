@@ -50,7 +50,7 @@ For a list of rake tasks associated with ThinkingSphinx, click [http://freelanci
 The following files are not committed the repository because they contain sensitive data like passwords, but are necessary for proper configuration of ResearchMatch:
   * config/development.sphinx.conf
   * config/database.yml
-  * config/ldap.yml
+  * config/ldap.yml (generated via `rake ldap:setup`)
   * config/smtp_pw.rb  (which is simply of the following form:) 
     {{{
     @@smtp_pw = "THE_PASSWORD_HERE"
